@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lab2 - Step 3: Inline CSS</title>
+  <style>
+    body { font-family: 'Open Sans', sans-serif; margin:0; background:#f5f7fa; }
+    header { min-height:80px; border-bottom:1px solid #77CCEF; }
+    h1 { font-size:24px; color:#0F189F; text-align:center; padding:20px 10px; }
+    nav { background:#20A759; color:#fff; padding:10px; }
+    nav a { color:#fff; text-decoration:none; padding:10px 20px; }
+    #intro { background:#418fb1; border:1px solid #099249; min-height:100px; padding:10px; }
+    #intro h1 { text-align:left; color:#fff; }
+    .button { padding:15px 20px; background:#bebcbd; color:#fff; display:inline-block; margin:10px; text-decoration:none; }
+    .btn-primary { background:#E42A42; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>CSS Internal dan <i>Inline CSS</i></h1>
+</header>
+<nav>
+  <a href="step1_structure.html">CSS Dasar</a>
+  <a href="step4_external.html">CSS Eksternal</a>
+  <a href="#">HTML Dasar</a>
+</nav>
+<div id="intro">
+  <h1>Hello World</h1>
+  <!-- INLINE CSS ditambahkan di bawah -->
+  <p style="text-align: center; color: #ccd8e4;">
+    Ini paragraf yang menggunakan <strong>inline CSS</strong>. Warna dan perataan diatur langsung pada atribut style.
+  </p>
+  <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+</div>
+</body>
+</html>

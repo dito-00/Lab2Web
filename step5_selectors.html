@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lab2 - Step 5: Selectors dan Specificity</title>
+  <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+  <style>
+    /* tambahan: definisi umum h1 untuk menunjukkan perbedaan dengan #intro h1 */
+    h1 { color: black; }
+    /* class selector */
+    .text-paragraf { color: blue; }
+    /* id selector */
+    #paragraf-1 { color: red; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Contoh Selector</h1>
+</header>
+<nav>
+  <a href="step1_structure.html">CSS Dasar</a>
+  <a href="step4_external.html">CSS Eksternal</a>
+  <a href="#">HTML Dasar</a>
+</nav>
+<section>
+  <h1>Heading global (h1&nbsp;{...})</h1>
+  <div id="intro">
+    <h1>Heading di dalam #intro (#intro h1 {...})</h1>
+    <p id="paragraf-1" class="text-paragraf">Paragraf ini memiliki <strong>id="paragraf-1"</strong> dan class="text-paragraf". Berdasarkan specificity, warna teks akan mengikuti aturan ID (merah) bukan class (biru).</p>
+    <p id="paragraf-2" class="text-paragraf" style="color: green;">Paragraf ini punya class dan juga <em>inline style</em>. Inline style (hijau) akan <strong>mengalahkan</strong> keduanya.</p>
+  </div>
+</section>
+</body>
+</html>
