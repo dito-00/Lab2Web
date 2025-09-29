@@ -7,7 +7,6 @@
 - `step4_external.html`   -> Menggunakan CSS eksternal (`style_eksternal.css`)
 - `step5_selectors.html`  -> Contoh specificity: elemen, id, class, inline
 - `style_eksternal.css`   -> File CSS eksternal
-- `screenshots/`          -> (kosong) Tempat simpan screenshot hasil praktikum
 
 ---
 ## langkah demi langkah (screenshot)
