@@ -27,30 +27,10 @@ Repository template untuk tugas Praktikum 2 (CSS Dasar).
    - **Screenshot 6**: `screenshots/06_editor_files.png`
 
 ---
-## Panduan screenshot singkat
-- **Windows**: tekan `Win + Shift + S` lalu paste ke Paint / langsung save; atau `PrtSc`.
-- **macOS**: `Cmd + Shift + 4` lalu tarik area.
-- **Linux (GNOME)**: `PrtSc` atau gunakan `gnome-screenshot`.
-- Simpan file screenshot ke folder `screenshots/` dan beri nama sesuai checklist di atas.
-
----
-## Contoh perintah Git (di terminal)
-```bash
-git init
-git add .
-git commit -m "Lab2: struktur + internal + inline + eksternal + selectors"
-# Buat repo di GitHub lalu sambungkan remote
-git remote add origin https://github.com/USERNAME/Lab2Web.git
-git branch -M main
-git push -u origin main
-```
-
----
-## Keterangan singkat jawaban tugas (untuk README)
+## Keterangan singkat jawaban tugas 
 1. **Eksperimen CSS**: ubah properti/warna/font pada file `style_eksternal.css` atau internal CSS (`step2_internal.html`) untuk melihat perubahan.
 2. **Perbedaan `h1 {}` vs `#intro h1 {}`**: `h1 {}` memengaruhi semua <h1>, sedangkan `#intro h1 {}` hanya memengaruhi <h1> di dalam elemen dengan id="intro".
 3. **Prioritas Internal/Eksternal/Inline**: prioritasnya `inline > internal > external` jika specificity sama.
 4. **ID vs Class**: ID memiliki specificity lebih tinggi dari class, sehingga aturan ID mengalahkan class untuk properti yang sama.
 
 ---
-Jika mau, setelah kamu ambil screenshot dan upload di sini (atau berikan link repo), aku bisa bantu periksa README dan tata letak screenshot agar sesuai syarat tugas dosen.
